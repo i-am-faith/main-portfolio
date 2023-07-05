@@ -112,6 +112,11 @@ body{
     animation-delay: 2s,3s;
 }
 
+.svg_git
+{
+    display: inline;
+}
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
