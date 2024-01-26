@@ -146,7 +146,24 @@ body{
     display: inline-block;
     padding: 12px 28px;
     background: #0ef;
-    border-radius: 40px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.prev {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 20px;
+    background: #0ef;
+    border-radius: 35px;
     box-shadow: 0 0 10px #0ef;
     font-size: 16px;
     color: #1f242d;
