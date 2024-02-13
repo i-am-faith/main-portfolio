@@ -248,3 +248,82 @@ body{
         transform: translateY(0px);
     }
 }
+
+/* Add this CSS at the end of your existing CSS file */
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        position: absolute;
+        top: 70px; /* Adjust this value based on your header height */
+        left: 0;
+        width: 100%;
+        background-color: #1f242d;
+        display: none; /* Initially hide the navbar on small screens */
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 28px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 70px 5% 0;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .home-img img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .social-media a {
+        margin: 10px 5px;
+    }
+
+    .btn,
+    .prev {
+        margin: 20px 0;
+    }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        padding: 20px 10%;
+    }
+
+    .navbar a {
+        margin: 10px;
+    }
+
+    .home {
+        padding: 70px 10% 0;
+    }
+}

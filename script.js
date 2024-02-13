@@ -6,4 +6,11 @@ var typed = new Typed(".multiple-text", {
     backDelay: 1000,
     loop: true
 })
+
+function toggleNavbar() {
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+}
+
+
 // code by sourin mukherjee
