@@ -11,7 +11,7 @@
 
 
 body{
-    background: #1f242d;
+    background: #111827;
     color: #fff;
 }
 
@@ -138,7 +138,7 @@ body{
 
 .social-media a:hover {
     background: #0ef;
-    color: #1f242d;
+    color: #111827;
     box-shadow: 0 0 20px #0ef;
 }
 
@@ -149,7 +149,7 @@ body{
     border-radius: 35px;
     box-shadow: 0 0 10px #0ef;
     font-size: 16px;
-    color: #1f242d;
+    color: #111827;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -166,7 +166,7 @@ body{
     border-radius: 35px;
     box-shadow: 0 0 10px #0ef;
     font-size: 16px;
-    color: #1f242d;
+    color: #111827;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
@@ -266,7 +266,7 @@ body{
         top: 70px; /* Adjust this value based on your header height */
         left: 0;
         width: 100%;
-        background-color: #1f242d;
+        background-color: #111827;
         display: none; /* Initially hide the navbar on small screens */
     }
 
