@@ -4,7 +4,7 @@ function toggleNavbar() {
 }
 
 var typed = new Typed(".typing-text", {
-    strings: ["Data Analyst", "ML Enthusiast", "Frontend Developer", "JAVA Developer"],
+    strings: ["Data Analyst", "ML Enthusiast", "Frontend Dev", "JAVA Dev"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
